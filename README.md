@@ -1,11 +1,10 @@
 # TOF_sensor_vl53l4cx
 1) The .project file is for stm ide to interface with the microcontroller - STM32 NUCLEO64F411RE board 
 2) The tof_side.py code is for connecting with the gantry to automate the process of taking readings, this involves taking the readings for a particular distance after recieving the acknowledgement. this makes sure that we dont take any reading during the transience.
-3) 
-4) The setup is done for grey target 
-5) This is the link for all the csv data taken at different distances for 40 secs - https://drive.google.com/drive/folders/1jUvgsX_affJ1PpiAoaE1oB-96LMEpyfm?usp=sharing
+3) The setup is done for grey target 
+4) This is the link for all the csv data taken at different distances for 40 secs - https://drive.google.com/drive/folders/1jUvgsX_affJ1PpiAoaE1oB-96LMEpyfm?usp=sharing
    it includes the error analysis results along with the code in ipynb file
-6) Similarly readings taken without lights along with its analysis result - https://drive.google.com/drive/folders/1KHmUzAsaaba-AjyzeVhUJRJ9S7V3WAbV?usp=sharing
+5) Similarly readings taken without lights along with its analysis result - https://drive.google.com/drive/folders/1KHmUzAsaaba-AjyzeVhUJRJ9S7V3WAbV?usp=sharing
 
 # Analysis results for setup with lights on 
 1) Very negligible data points have errors that lie in the +-5% range of true distance (almost 0%) results are in vl53l4cx_summary_sheet.csv
